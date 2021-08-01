@@ -1,3 +1,23 @@
+# Google Chrome 
+#   Shift + Mousewheel Up/Down -> Page Up/Down
+#
+# TODO: Note that Alt modifier doesn't work, Shift and Ctrl interferes
+# with horizontal scrolling and zooming, respectively. Caps_Lock
+# doesn't work either.
+#
+"google-chrome"
+None,      Up,   Button4
+None,      Down, Button5
+Shift_L,   Up,   Prior
+Shift_L,   Down, Next
+#Shift_L,   Up,   Shift_L|Button4
+#Shift_L,   Down, Shift_L|Button5
+Control_L, Up,   Control_L|Button4
+Control_L, Down, Control_L|Button5
+
+# Other applications:
+#   Alt + Mousewheel Up/Down -> Shift + Page Up/Down
+#
 ".*"
 None,      Up,   Button4
 None,      Down, Button5
