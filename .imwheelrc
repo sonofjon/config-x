@@ -1,0 +1,3 @@
+".*"
+Alt_L,  Up,     Shift_L|Prior
+Alt_L,  Down,   Shift_L|Next
