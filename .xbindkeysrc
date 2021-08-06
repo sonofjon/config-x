@@ -67,30 +67,6 @@
 
 ### My edits below ###
   
-# Ctrl + Mousewheel Up -> Page Up
-#"xdotool key --clearmodifiers Shift+Prior"
-#  Control+b:4
-
-# Alt + Mousewheel Up -> Page Up
-"xdotool key --clearmodifiers Shift+Prior"
-  Alt+b:4
-  # Does not work:
-  #Mod2+b:4
-  #Meta+b:4
-
-# Ctrl + Mousewheel Down -> Page Down
-#"xdotool key --clearmodifiers Shift+Next"
-#  Control+b:5
-
-# Alt + Mousewheel Down -> Page Down
-"xdotool key --clearmodifiers Shift+Next"
-  Alt+b:5
-  # Does not work:
-  #Mod2+b:5
-  #Meta+b:5
-
-### My edits below ###
-  
 # Ctrl + Mousewheel Up -> Shift+Page Up
 #"xdotool key --clearmodifiers Shift+Prior"
 #  Control+b:4
