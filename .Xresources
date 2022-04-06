@@ -88,9 +88,6 @@ URxvt.font:                       xft:TerminessTTFNerdFontMono
 *color7:                          #d8d8d8
 *color15:                         #f8f8f8
 
-Xcursor.theme: xcursor-breeze
-Xcursor.size:                     0
-
 !!! General
 
 URxvt.depth:                      32
@@ -103,6 +100,9 @@ URxvt*foreground:                 grey
 URxvt*saveLines:                  5000
 
 !!! Appearance
+
+Xcursor.theme: xcursor-breeze
+Xcursor.size:                     0
 
 !! Transparency
 !!   For 'fake' transparency (without Compton) uncomment the following three lines
