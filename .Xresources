@@ -112,8 +112,11 @@ Xcursor.size:                     0
 
 !!! Key bindings
 
-!! Copy-paste without perls
+!! Unbind Ctrl-shift
 URxvt.iso14755:                   false
+URxvt.iso14755_52:                false
+
+!! Copy-paste without perls
 URxvt.keysym.Shift-Control-V:     eval:paste_clipboard
 URxvt.keysym.Shift-Control-C:     eval:selection_to_clipboard
 
