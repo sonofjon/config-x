@@ -121,14 +121,30 @@ URxvt.keysym.Shift-Control-V:     eval:paste_clipboard
 URxvt.keysym.Shift-Control-C:     eval:selection_to_clipboard
 
 !! Escape codes
-URxvt.keysym.Control-Left:        \033[1;5D
-URxvt.keysym.Shift-Control-Left:  \033[1;6D
-URxvt.keysym.Control-Right:       \033[1;5C
-URxvt.keysym.Shift-Control-Right: \033[1;6C
-URxvt.keysym.Control-Up:          \033[1;5A
-URxvt.keysym.Shift-Control-Up:    \033[1;6A
-URxvt.keysym.Control-Down:        \033[1;5B
-URxvt.keysym.Shift-Control-Down:  \033[1;6B
+URxvt.keysym.Meta-Up:                  \033[1;3A
+URxvt.keysym.Meta-Down:                \033[1;3B
+URxvt.keysym.Meta-Right:               \033[1;3C
+URxvt.keysym.Meta-Left:                \033[1;3D
+URxvt.keysym.Shift-Meta-Up:            \033[1;4A
+URxvt.keysym.Shift-Meta-Down:          \033[1;4B
+URxvt.keysym.Shift-Meta-Right:         \033[1;4C
+URxvt.keysym.Shift-Meta-Left:          \033[1;4D
+URxvt.keysym.Control-Up:               \033[1;5A
+URxvt.keysym.Control-Down:             \033[1;5B
+URxvt.keysym.Control-Right:            \033[1;5C
+URxvt.keysym.Control-Left:             \033[1;5D
+URxvt.keysym.Shift-Control-Up:         \033[1;6A
+URxvt.keysym.Shift-Control-Down:       \033[1;6B
+URxvt.keysym.Shift-Control-Right:      \033[1;6C
+URxvt.keysym.Shift-Control-Left:       \033[1;6D
+URxvt.keysym.Control-Meta-Up:          \033[1;7A
+URxvt.keysym.Control-Meta-Down:        \033[1;7B
+URxvt.keysym.Control-Meta-Right:       \033[1;7C
+URxvt.keysym.Control-Meta-Left:        \033[1;7D
+URxvt.keysym.Shift-Control-Meta-Up:    \033[1;8A
+URxvt.keysym.Shift-Control-Meta-Down:  \033[1;8B
+URxvt.keysym.Shift-Control-Meta-Right: \033[1;8C
+URxvt.keysym.Shift-Control-Meta-Left:  \033[1;8D
 
 !! Disable default key binding for searchable-scrollback (M-s)
 Rxvt.perl-ext-common: default,-searchable-scrollback
