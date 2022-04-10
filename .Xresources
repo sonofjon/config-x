@@ -118,7 +118,7 @@ Xcursor.size:                           0
 ! URxvt.perl-ext-common:                 default,-searchable-scrollback
 
 !! Custom
-URxvt.perl-ext-common:                  default,url-select,keyboard-select
+URxvt.perl-ext-common:                  default,confirm-paste,url-select,keyboard-select
 
 !! searchable-scrollback
 URxvt.keysym.Meta-s:                    builtin-string:
