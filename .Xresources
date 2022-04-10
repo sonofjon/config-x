@@ -149,6 +149,10 @@ URxvt.iso14755_52:                      false
 URxvt.keysym.Shift-Control-V:           eval:paste_clipboard
 URxvt.keysym.Shift-Control-C:           eval:selection_to_clipboard
 
+!! Page Up/down
+URxvt.keysym.Mod4-Meta-Up:              eval:scroll_up_pages 1
+URxvt.keysym.Mod4-Meta-Down:            eval:scroll_down_pages 1
+
 !! Escape codes
 URxvt.keysym.Meta-Up:                   \033[1;3A
 URxvt.keysym.Meta-Down:                 \033[1;3B
