@@ -123,6 +123,7 @@ URxvt.perl-ext-common:                  default,url-select,keyboard-select
 !! searchable-scrollback
 URxvt.keysym.Mod4+Meta-s:               perl:searchable-scrollback:start
 
+URxvt.keysym.Meta-s:                    builtin-string:
 !! matcher
 ! URxvt.url-launcher:                     /usr/bin/xdg-open
 ! URxvt.matcher.button:                   1
